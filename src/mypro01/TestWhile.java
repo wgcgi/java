@@ -1,0 +1,14 @@
+package mypro01;
+
+public class TestWhile {
+	public static void main(String[] args) {
+		int c = 1;
+		int sum = 0;
+		while (c < 101) {
+			sum += c;
+			c++;
+		}
+		System.out.println(sum);
+		System.out.println("whileÑ­»·½áÊø");
+	}
+}
