@@ -13,6 +13,7 @@ public class TestWhile {
 		for (int i = 0; i < args.length; i++) {
 			int a = 1;
 			int b = 1;
+			int c1=1;
 		}
 
 	}
