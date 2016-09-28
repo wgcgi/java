@@ -10,7 +10,8 @@ public class TestWhile {
 		// }
 		// System.out.println(sum);
 		// System.out.println("whileÑ­»·½áÊø");
-		int sum1 = 0;
+//	 	int sum1 = 0;
+		 
 		for (int i = 1; i <= 1000; i++) {
 			if (i % 5 == 0) {
 				System.out.print(i + "\t");
