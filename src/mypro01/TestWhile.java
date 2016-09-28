@@ -11,8 +11,9 @@ public class TestWhile {
 		System.out.println(sum);
 		System.out.println("whileÑ­»·½áÊø");
 		for (int i = 0; i < args.length; i++) {
-			int a=1;
+			int a = 1;
+			int b = 1;
 		}
-		
+
 	}
 }
