@@ -2,18 +2,22 @@ package mypro01;
 
 public class TestWhile {
 	public static void main(String[] args) {
-		int c = 1;
-		int sum = 0;
-		while (c < 101) {
-			sum += c;
-			c++;
-		}
-		System.out.println(sum);
-		System.out.println("while循环结束");
-		for (int i = 0; i < args.length; i++) {
-			int a = 1;
-			int b = 1;
-			int c1=1;
+		// int eec = 1;
+		// int sum = 0;
+		// while (eec < 101) {
+		// sum += eec;
+		// eec++;
+		// }
+		// System.out.println(sum);
+		// System.out.println("while循环结束");
+		int sum1 = 0;
+		for (int i = 1; i <= 1000; i++) {
+			if (i % 5 == 0) {
+				System.out.print(i + "\t");
+			}
+			if (i % 15 == 0) {
+				System.out.println();
+			}
 		}
 
 	}
